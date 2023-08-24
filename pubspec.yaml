@@ -1,0 +1,123 @@
+name: multi_store_demo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.9.0
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.8.0
+  firebase_core: ^2.15.1
+  firebase_storage: ^11.2.6
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: REM-Black
+      fonts:
+        - asset: assets/fonts/REM-Black.ttf
+
+    - family: REM-BlackItalic
+      fonts:
+        - asset: assets/fonts/REM-BlackItalic.ttf
+
+    - family: REM-Bold
+      fonts:
+        - asset: assets/fonts/REM-Bold.ttf
+
+    - family: REM-BoldItalic
+      fonts:
+        - asset: assets/fonts/REM-BoldItalic.ttf
+
+    - family: REM-ExtraBold
+      fonts:
+        - asset: assets/fonts/REM-ExtraBold.ttf
+
+    - family: REM-ExtraBoldItalic
+      fonts:
+        - asset: assets/fonts/REM-ExtraBoldItalic.ttf
+
+    - family: REM-ExtraLight
+      fonts:
+        - asset: assets/fonts/REM-ExtraLight.ttf
+
+    - family: REM-ExtraLightItalic
+      fonts:
+        - asset: assets/fonts/REM-ExtraLightItalic.ttf
+
+    - family: REM-Italic-VariableFont_wght
+      fonts:
+        - asset: assets/fonts/REM-Italic-VariableFont_wght.ttf
+
+    - family: REM-Italic
+      fonts:
+        - asset: assets/fonts/REM-Italic.ttf
+
+    - family: REM-Light
+      fonts:
+        - asset: assets/fonts/REM-Light.ttf
+
+    - family: REM-LightItalic
+      fonts:
+        - asset: assets/fonts/REM-LightItalic.ttf
+
+    - family: REM-Medium
+      fonts:
+        - asset: assets/fonts/REM-Medium.ttf
+
+    - family: REM-MediumItalic
+      fonts:
+        - asset: assets/fonts/REM-MediumItalic.ttf
+
+    - family: REM-Regular
+      fonts:
+        - asset: assets/fonts/REM-Regular.ttf
+
+    - family: REM-SemiBold
+      fonts:
+        - asset: assets/fonts/REM-SemiBold.ttf
+
+    - family: REM-SemiBoldItalic
+      fonts:
+        - asset: assets/fonts/REM-SemiBoldItalic.ttf
+
+    - family: REM-Thin
+      fonts:
+        - asset: assets/fonts/REM-Thin.ttf
+
+    - family: REM-ThinItalic
+      fonts:
+        - asset: assets/fonts/REM-ThinItalic.ttf
+
+    - family: REM-VariableFont_wght
+      fonts:
+        - asset: assets/fonts/REM-VariableFont_wght.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
